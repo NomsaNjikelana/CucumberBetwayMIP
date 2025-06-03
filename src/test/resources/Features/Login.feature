@@ -1,3 +1,4 @@
+@Regression @Sanity @Login
 Feature: Login
 
   Scenario Outline: As a user, I want to login and verify that I've logged in
@@ -9,4 +10,3 @@ Feature: Login
     Examples:
       | MSISDN    | password |
       | 810708491 | betw@y1@ |
-
